@@ -1,0 +1,2167 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>32e8ac0e589042c184187436cac42cc5</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="csci-470-activities-and-case-studies" class="cell markdown"
+id="FqhWmoEXXfcQ">
+<h2>CSCI 470 Activities and Case Studies</h2>
+<ol>
+<li>For all activities, you are allowed to collaborate with a
+partner.</li>
+<li>For case studies, you should work individually and are
+<strong>not</strong> allowed to collaborate.</li>
+</ol>
+<p>By filling out this notebook and submitting it, you acknowledge that
+you are aware of the above policies and are agreeing to comply with
+them.</p>
+</section>
+<div class="cell markdown" id="3UGLGbZIXfcR">
+<p>Some considerations with regard to how these notebooks will be
+graded:</p>
+<ol>
+<li>Cells in which "# YOUR CODE HERE" is found are the cells where your
+graded code should be written.</li>
+<li>In order to test out or debug your code you may also create notebook
+cells or edit existing notebook cells other than "# YOUR CODE HERE". We
+actually highly recommend you do so to gain a better understanding of
+what is happening. However, during grading, <strong>these changes are
+ignored</strong>.</li>
+<li>You must ensure that all your code for the particular task is
+available in the cells that say "# YOUR CODE HERE"</li>
+<li>Every cell that says "# YOUR CODE HERE" is followed by a "raise
+NotImplementedError". You need to remove that line. During grading, if
+an error occurs then you will not receive points for your work in that
+section.</li>
+<li>If your code passes the "assert" statements, then no output will
+result. If your code fails the "assert" statements, you will get an
+"AssertionError". Getting an assertion error means you will not receive
+points for that particular task.</li>
+<li>If you edit the "assert" statements to make your code pass, they
+will still fail when they are graded since the "assert" statements will
+revert to the original. Make sure you don't edit the assert
+statements.</li>
+<li>We may sometimes have "hidden" tests for grading. This means that
+passing the visible "assert" statements is not sufficient. The "assert"
+statements are there as a guide but you need to make sure you understand
+what you're required to do and ensure that you are doing it correctly.
+Passing the visible tests is necessary but not sufficient to get the
+grade for that cell.</li>
+<li>When you are asked to define a function, make sure you
+<strong>don't</strong> use any variables outside of the parameters
+passed to the function. You can think of the parameters being passed to
+the function as a hint. Make sure you're using all of those
+variables.</li>
+<li>Finally, <strong>make sure you run "Kernel &gt; Restart and Run
+All"</strong> and pass all the asserts before submitting. If you don't
+restart the kernel, there may be some code that you ran and deleted that
+is still being used and that was why your asserts were passing.</li>
+</ol>
+</div>
+<section id="natural-language-processing" class="cell markdown"
+id="NaE9d-ekXfcS">
+<h1>Natural Language Processing</h1>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="uL0g5qIvXfcT"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-7ff8992190e52386&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="3349d423-5cc3-4842-aac9-ce7ccd4327a9">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># # Uncomment the below line to install</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install pprint</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install spacy</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> python <span class="op">-</span>m spacy download en_core_web_md</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+ERROR: Could not find a version that satisfies the requirement pprint (from versions: none)
+ERROR: No matching distribution found for pprint
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: spacy in /usr/local/lib/python3.9/dist-packages (3.5.2)
+Requirement already satisfied: pathy&gt;=0.10.0 in /usr/local/lib/python3.9/dist-packages (from spacy) (0.10.1)
+Requirement already satisfied: cymem&lt;2.1.0,&gt;=2.0.2 in /usr/local/lib/python3.9/dist-packages (from spacy) (2.0.7)
+Requirement already satisfied: preshed&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.9/dist-packages (from spacy) (3.0.8)
+Requirement already satisfied: langcodes&lt;4.0.0,&gt;=3.2.0 in /usr/local/lib/python3.9/dist-packages (from spacy) (3.3.0)
+Requirement already satisfied: catalogue&lt;2.1.0,&gt;=2.0.6 in /usr/local/lib/python3.9/dist-packages (from spacy) (2.0.8)
+Requirement already satisfied: jinja2 in /usr/local/lib/python3.9/dist-packages (from spacy) (3.1.2)
+Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.9/dist-packages (from spacy) (23.1)
+Requirement already satisfied: thinc&lt;8.2.0,&gt;=8.1.8 in /usr/local/lib/python3.9/dist-packages (from spacy) (8.1.9)
+Requirement already satisfied: wasabi&lt;1.2.0,&gt;=0.9.1 in /usr/local/lib/python3.9/dist-packages (from spacy) (1.1.1)
+Requirement already satisfied: tqdm&lt;5.0.0,&gt;=4.38.0 in /usr/local/lib/python3.9/dist-packages (from spacy) (4.65.0)
+Requirement already satisfied: typer&lt;0.8.0,&gt;=0.3.0 in /usr/local/lib/python3.9/dist-packages (from spacy) (0.7.0)
+Requirement already satisfied: murmurhash&lt;1.1.0,&gt;=0.28.0 in /usr/local/lib/python3.9/dist-packages (from spacy) (1.0.9)
+Requirement already satisfied: spacy-loggers&lt;2.0.0,&gt;=1.0.0 in /usr/local/lib/python3.9/dist-packages (from spacy) (1.0.4)
+Requirement already satisfied: numpy&gt;=1.15.0 in /usr/local/lib/python3.9/dist-packages (from spacy) (1.22.4)
+Requirement already satisfied: pydantic!=1.8,!=1.8.1,&lt;1.11.0,&gt;=1.7.4 in /usr/local/lib/python3.9/dist-packages (from spacy) (1.10.7)
+Requirement already satisfied: smart-open&lt;7.0.0,&gt;=5.2.1 in /usr/local/lib/python3.9/dist-packages (from spacy) (6.3.0)
+Requirement already satisfied: requests&lt;3.0.0,&gt;=2.13.0 in /usr/local/lib/python3.9/dist-packages (from spacy) (2.27.1)
+Requirement already satisfied: spacy-legacy&lt;3.1.0,&gt;=3.0.11 in /usr/local/lib/python3.9/dist-packages (from spacy) (3.0.12)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.9/dist-packages (from spacy) (67.6.1)
+Requirement already satisfied: srsly&lt;3.0.0,&gt;=2.4.3 in /usr/local/lib/python3.9/dist-packages (from spacy) (2.4.6)
+Requirement already satisfied: typing-extensions&gt;=4.2.0 in /usr/local/lib/python3.9/dist-packages (from pydantic!=1.8,!=1.8.1,&lt;1.11.0,&gt;=1.7.4-&gt;spacy) (4.5.0)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.9/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (2022.12.7)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.9/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (3.4)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.9/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (2.0.12)
+Requirement already satisfied: urllib3&lt;1.27,&gt;=1.21.1 in /usr/local/lib/python3.9/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy) (1.26.15)
+Requirement already satisfied: blis&lt;0.8.0,&gt;=0.7.8 in /usr/local/lib/python3.9/dist-packages (from thinc&lt;8.2.0,&gt;=8.1.8-&gt;spacy) (0.7.9)
+Requirement already satisfied: confection&lt;1.0.0,&gt;=0.0.1 in /usr/local/lib/python3.9/dist-packages (from thinc&lt;8.2.0,&gt;=8.1.8-&gt;spacy) (0.0.4)
+Requirement already satisfied: click&lt;9.0.0,&gt;=7.1.1 in /usr/local/lib/python3.9/dist-packages (from typer&lt;0.8.0,&gt;=0.3.0-&gt;spacy) (8.1.3)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in /usr/local/lib/python3.9/dist-packages (from jinja2-&gt;spacy) (2.1.2)
+2023-04-21 02:43:45.879821: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Collecting en-core-web-md==3.5.0
+  Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.5.0/en_core_web_md-3.5.0-py3-none-any.whl (42.8 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.8/42.8 MB 14.8 MB/s eta 0:00:00
+ent already satisfied: spacy&lt;3.6.0,&gt;=3.5.0 in /usr/local/lib/python3.9/dist-packages (from en-core-web-md==3.5.0) (3.5.2)
+Requirement already satisfied: cymem&lt;2.1.0,&gt;=2.0.2 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (2.0.7)
+Requirement already satisfied: spacy-loggers&lt;2.0.0,&gt;=1.0.0 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (1.0.4)
+Requirement already satisfied: jinja2 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (3.1.2)
+Requirement already satisfied: numpy&gt;=1.15.0 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (1.22.4)
+Requirement already satisfied: pydantic!=1.8,!=1.8.1,&lt;1.11.0,&gt;=1.7.4 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (1.10.7)
+Requirement already satisfied: pathy&gt;=0.10.0 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (0.10.1)
+Requirement already satisfied: murmurhash&lt;1.1.0,&gt;=0.28.0 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (1.0.9)
+Requirement already satisfied: spacy-legacy&lt;3.1.0,&gt;=3.0.11 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (3.0.12)
+Requirement already satisfied: wasabi&lt;1.2.0,&gt;=0.9.1 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (1.1.1)
+Requirement already satisfied: langcodes&lt;4.0.0,&gt;=3.2.0 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (3.3.0)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (67.6.1)
+Requirement already satisfied: srsly&lt;3.0.0,&gt;=2.4.3 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (2.4.6)
+Requirement already satisfied: smart-open&lt;7.0.0,&gt;=5.2.1 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (6.3.0)
+Requirement already satisfied: thinc&lt;8.2.0,&gt;=8.1.8 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (8.1.9)
+Requirement already satisfied: requests&lt;3.0.0,&gt;=2.13.0 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (2.27.1)
+Requirement already satisfied: typer&lt;0.8.0,&gt;=0.3.0 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (0.7.0)
+Requirement already satisfied: tqdm&lt;5.0.0,&gt;=4.38.0 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (4.65.0)
+Requirement already satisfied: preshed&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (3.0.8)
+Requirement already satisfied: catalogue&lt;2.1.0,&gt;=2.0.6 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (2.0.8)
+Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.9/dist-packages (from spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (23.1)
+Requirement already satisfied: typing-extensions&gt;=4.2.0 in /usr/local/lib/python3.9/dist-packages (from pydantic!=1.8,!=1.8.1,&lt;1.11.0,&gt;=1.7.4-&gt;spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (4.5.0)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.9/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (2022.12.7)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.9/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (3.4)
+Requirement already satisfied: urllib3&lt;1.27,&gt;=1.21.1 in /usr/local/lib/python3.9/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (1.26.15)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.9/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (2.0.12)
+Requirement already satisfied: confection&lt;1.0.0,&gt;=0.0.1 in /usr/local/lib/python3.9/dist-packages (from thinc&lt;8.2.0,&gt;=8.1.8-&gt;spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (0.0.4)
+Requirement already satisfied: blis&lt;0.8.0,&gt;=0.7.8 in /usr/local/lib/python3.9/dist-packages (from thinc&lt;8.2.0,&gt;=8.1.8-&gt;spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (0.7.9)
+Requirement already satisfied: click&lt;9.0.0,&gt;=7.1.1 in /usr/local/lib/python3.9/dist-packages (from typer&lt;0.8.0,&gt;=0.3.0-&gt;spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (8.1.3)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in /usr/local/lib/python3.9/dist-packages (from jinja2-&gt;spacy&lt;3.6.0,&gt;=3.5.0-&gt;en-core-web-md==3.5.0) (2.1.2)
+✔ Download and installation successful
+You can now load the package via spacy.load(&#39;en_core_web_md&#39;)
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="aQVF16aBXfcT"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-839fb7e9db39b4dd&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sklearn</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.datasets <span class="im">import</span> fetch_20newsgroups</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.feature_extraction.text <span class="im">import</span> CountVectorizer, TfidfTransformer, HashingVectorizer</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> LatentDirichletAllocation</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.naive_bayes <span class="im">import</span> MultinomialNB, GaussianNB</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.svm <span class="im">import</span> LinearSVC</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report, f1_score, accuracy_score</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> en_core_web_md</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pprint <span class="im">import</span> pprint</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>plt.style.use(<span class="st">&quot;ggplot&quot;</span>)</span></code></pre></div>
+</div>
+<section id="load-and-examine-the-data" class="cell markdown"
+id="gXXmvkXqXfcU">
+<h2>Load and examine the data</h2>
+<p>The "20 newsgroups" dataset contains message posts ("documents") from
+newgroup message boards, for 20 different topics.</p>
+<p>The ultimate goal of the models you construct will be to predict
+which topic a message belongs to. In order to accomplish these, you'll
+need to convert the text messages into numerical features, using the
+various methods we discussed in class. After converting the messages to
+numeric features, you'll train and test Naive Bayes and SVM models to
+perform topic classification.</p>
+</section>
+<div class="cell code" id="P89qA22HXfcV"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-32547bf8b3c17d81&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> fetch_20newsgroups(subset<span class="op">=</span><span class="st">&quot;all&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="2mFsfDB6XfcV"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-222fb692deae0d18&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="30b7a6ef-aa68-4890-e327-fa1445f10e09">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.DESCR)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>.. _20newsgroups_dataset:
+
+The 20 newsgroups text dataset
+------------------------------
+
+The 20 newsgroups dataset comprises around 18000 newsgroups posts on
+20 topics split in two subsets: one for training (or development)
+and the other one for testing (or for performance evaluation). The split
+between the train and test set is based upon a messages posted before
+and after a specific date.
+
+This module contains two loaders. The first one,
+:func:`sklearn.datasets.fetch_20newsgroups`,
+returns a list of the raw texts that can be fed to text feature
+extractors such as :class:`~sklearn.feature_extraction.text.CountVectorizer`
+with custom parameters so as to extract feature vectors.
+The second one, :func:`sklearn.datasets.fetch_20newsgroups_vectorized`,
+returns ready-to-use features, i.e., it is not necessary to use a feature
+extractor.
+
+**Data Set Characteristics:**
+
+    =================   ==========
+    Classes                     20
+    Samples total            18846
+    Dimensionality               1
+    Features                  text
+    =================   ==========
+
+Usage
+~~~~~
+
+The :func:`sklearn.datasets.fetch_20newsgroups` function is a data
+fetching / caching functions that downloads the data archive from
+the original `20 newsgroups website`_, extracts the archive contents
+in the ``~/scikit_learn_data/20news_home`` folder and calls the
+:func:`sklearn.datasets.load_files` on either the training or
+testing set folder, or both of them::
+
+  &gt;&gt;&gt; from sklearn.datasets import fetch_20newsgroups
+  &gt;&gt;&gt; newsgroups_train = fetch_20newsgroups(subset=&#39;train&#39;)
+
+  &gt;&gt;&gt; from pprint import pprint
+  &gt;&gt;&gt; pprint(list(newsgroups_train.target_names))
+  [&#39;alt.atheism&#39;,
+   &#39;comp.graphics&#39;,
+   &#39;comp.os.ms-windows.misc&#39;,
+   &#39;comp.sys.ibm.pc.hardware&#39;,
+   &#39;comp.sys.mac.hardware&#39;,
+   &#39;comp.windows.x&#39;,
+   &#39;misc.forsale&#39;,
+   &#39;rec.autos&#39;,
+   &#39;rec.motorcycles&#39;,
+   &#39;rec.sport.baseball&#39;,
+   &#39;rec.sport.hockey&#39;,
+   &#39;sci.crypt&#39;,
+   &#39;sci.electronics&#39;,
+   &#39;sci.med&#39;,
+   &#39;sci.space&#39;,
+   &#39;soc.religion.christian&#39;,
+   &#39;talk.politics.guns&#39;,
+   &#39;talk.politics.mideast&#39;,
+   &#39;talk.politics.misc&#39;,
+   &#39;talk.religion.misc&#39;]
+
+The real data lies in the ``filenames`` and ``target`` attributes. The target
+attribute is the integer index of the category::
+
+  &gt;&gt;&gt; newsgroups_train.filenames.shape
+  (11314,)
+  &gt;&gt;&gt; newsgroups_train.target.shape
+  (11314,)
+  &gt;&gt;&gt; newsgroups_train.target[:10]
+  array([ 7,  4,  4,  1, 14, 16, 13,  3,  2,  4])
+
+It is possible to load only a sub-selection of the categories by passing the
+list of the categories to load to the
+:func:`sklearn.datasets.fetch_20newsgroups` function::
+
+  &gt;&gt;&gt; cats = [&#39;alt.atheism&#39;, &#39;sci.space&#39;]
+  &gt;&gt;&gt; newsgroups_train = fetch_20newsgroups(subset=&#39;train&#39;, categories=cats)
+
+  &gt;&gt;&gt; list(newsgroups_train.target_names)
+  [&#39;alt.atheism&#39;, &#39;sci.space&#39;]
+  &gt;&gt;&gt; newsgroups_train.filenames.shape
+  (1073,)
+  &gt;&gt;&gt; newsgroups_train.target.shape
+  (1073,)
+  &gt;&gt;&gt; newsgroups_train.target[:10]
+  array([0, 1, 1, 1, 0, 1, 1, 0, 0, 0])
+
+Converting text to vectors
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In order to feed predictive or clustering models with the text data,
+one first need to turn the text into vectors of numerical values suitable
+for statistical analysis. This can be achieved with the utilities of the
+``sklearn.feature_extraction.text`` as demonstrated in the following
+example that extract `TF-IDF`_ vectors of unigram tokens
+from a subset of 20news::
+
+  &gt;&gt;&gt; from sklearn.feature_extraction.text import TfidfVectorizer
+  &gt;&gt;&gt; categories = [&#39;alt.atheism&#39;, &#39;talk.religion.misc&#39;,
+  ...               &#39;comp.graphics&#39;, &#39;sci.space&#39;]
+  &gt;&gt;&gt; newsgroups_train = fetch_20newsgroups(subset=&#39;train&#39;,
+  ...                                       categories=categories)
+  &gt;&gt;&gt; vectorizer = TfidfVectorizer()
+  &gt;&gt;&gt; vectors = vectorizer.fit_transform(newsgroups_train.data)
+  &gt;&gt;&gt; vectors.shape
+  (2034, 34118)
+
+The extracted TF-IDF vectors are very sparse, with an average of 159 non-zero
+components by sample in a more than 30000-dimensional space
+(less than .5% non-zero features)::
+
+  &gt;&gt;&gt; vectors.nnz / float(vectors.shape[0])
+  159.01327...
+
+:func:`sklearn.datasets.fetch_20newsgroups_vectorized` is a function which
+returns ready-to-use token counts features instead of file names.
+
+.. _`20 newsgroups website`: http://people.csail.mit.edu/jrennie/20Newsgroups/
+.. _`TF-IDF`: https://en.wikipedia.org/wiki/Tf-idf
+
+
+Filtering text for more realistic training
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It is easy for a classifier to overfit on particular things that appear in the
+20 Newsgroups data, such as newsgroup headers. Many classifiers achieve very
+high F-scores, but their results would not generalize to other documents that
+aren&#39;t from this window of time.
+
+For example, let&#39;s look at the results of a multinomial Naive Bayes classifier,
+which is fast to train and achieves a decent F-score::
+
+  &gt;&gt;&gt; from sklearn.naive_bayes import MultinomialNB
+  &gt;&gt;&gt; from sklearn import metrics
+  &gt;&gt;&gt; newsgroups_test = fetch_20newsgroups(subset=&#39;test&#39;,
+  ...                                      categories=categories)
+  &gt;&gt;&gt; vectors_test = vectorizer.transform(newsgroups_test.data)
+  &gt;&gt;&gt; clf = MultinomialNB(alpha=.01)
+  &gt;&gt;&gt; clf.fit(vectors, newsgroups_train.target)
+  MultinomialNB(alpha=0.01, class_prior=None, fit_prior=True)
+
+  &gt;&gt;&gt; pred = clf.predict(vectors_test)
+  &gt;&gt;&gt; metrics.f1_score(newsgroups_test.target, pred, average=&#39;macro&#39;)
+  0.88213...
+
+(The example :ref:`sphx_glr_auto_examples_text_plot_document_classification_20newsgroups.py` shuffles
+the training and test data, instead of segmenting by time, and in that case
+multinomial Naive Bayes gets a much higher F-score of 0.88. Are you suspicious
+yet of what&#39;s going on inside this classifier?)
+
+Let&#39;s take a look at what the most informative features are:
+
+  &gt;&gt;&gt; import numpy as np
+  &gt;&gt;&gt; def show_top10(classifier, vectorizer, categories):
+  ...     feature_names = vectorizer.get_feature_names_out()
+  ...     for i, category in enumerate(categories):
+  ...         top10 = np.argsort(classifier.coef_[i])[-10:]
+  ...         print(&quot;%s: %s&quot; % (category, &quot; &quot;.join(feature_names[top10])))
+  ...
+  &gt;&gt;&gt; show_top10(clf, vectorizer, newsgroups_train.target_names)
+  alt.atheism: edu it and in you that is of to the
+  comp.graphics: edu in graphics it is for and of to the
+  sci.space: edu it that is in and space to of the
+  talk.religion.misc: not it you in is that and to of the
+
+
+You can now see many things that these features have overfit to:
+
+- Almost every group is distinguished by whether headers such as
+  ``NNTP-Posting-Host:`` and ``Distribution:`` appear more or less often.
+- Another significant feature involves whether the sender is affiliated with
+  a university, as indicated either by their headers or their signature.
+- The word &quot;article&quot; is a significant feature, based on how often people quote
+  previous posts like this: &quot;In article [article ID], [name] &lt;[e-mail address]&gt;
+  wrote:&quot;
+- Other features match the names and e-mail addresses of particular people who
+  were posting at the time.
+
+With such an abundance of clues that distinguish newsgroups, the classifiers
+barely have to identify topics from text at all, and they all perform at the
+same high level.
+
+For this reason, the functions that load 20 Newsgroups data provide a
+parameter called **remove**, telling it what kinds of information to strip out
+of each file. **remove** should be a tuple containing any subset of
+``(&#39;headers&#39;, &#39;footers&#39;, &#39;quotes&#39;)``, telling it to remove headers, signature
+blocks, and quotation blocks respectively.
+
+  &gt;&gt;&gt; newsgroups_test = fetch_20newsgroups(subset=&#39;test&#39;,
+  ...                                      remove=(&#39;headers&#39;, &#39;footers&#39;, &#39;quotes&#39;),
+  ...                                      categories=categories)
+  &gt;&gt;&gt; vectors_test = vectorizer.transform(newsgroups_test.data)
+  &gt;&gt;&gt; pred = clf.predict(vectors_test)
+  &gt;&gt;&gt; metrics.f1_score(pred, newsgroups_test.target, average=&#39;macro&#39;)
+  0.77310...
+
+This classifier lost over a lot of its F-score, just because we removed
+metadata that has little to do with topic classification.
+It loses even more if we also strip this metadata from the training data:
+
+  &gt;&gt;&gt; newsgroups_train = fetch_20newsgroups(subset=&#39;train&#39;,
+  ...                                       remove=(&#39;headers&#39;, &#39;footers&#39;, &#39;quotes&#39;),
+  ...                                       categories=categories)
+  &gt;&gt;&gt; vectors = vectorizer.fit_transform(newsgroups_train.data)
+  &gt;&gt;&gt; clf = MultinomialNB(alpha=.01)
+  &gt;&gt;&gt; clf.fit(vectors, newsgroups_train.target)
+  MultinomialNB(alpha=0.01, class_prior=None, fit_prior=True)
+
+  &gt;&gt;&gt; vectors_test = vectorizer.transform(newsgroups_test.data)
+  &gt;&gt;&gt; pred = clf.predict(vectors_test)
+  &gt;&gt;&gt; metrics.f1_score(newsgroups_test.target, pred, average=&#39;macro&#39;)
+  0.76995...
+
+Some other classifiers cope better with this harder version of the task. Try the
+:ref:`sphx_glr_auto_examples_model_selection_plot_grid_search_text_feature_extraction.py`
+example with and without the `remove` option to compare the results.
+
+.. topic:: Data Considerations
+
+  The Cleveland Indians is a major league baseball team based in Cleveland,
+  Ohio, USA. In December 2020, it was reported that &quot;After several months of
+  discussion sparked by the death of George Floyd and a national reckoning over
+  race and colonialism, the Cleveland Indians have decided to change their
+  name.&quot; Team owner Paul Dolan &quot;did make it clear that the team will not make
+  its informal nickname -- the Tribe -- its new team name.&quot; &quot;It&#39;s not going to
+  be a half-step away from the Indians,&quot; Dolan said.&quot;We will not have a Native
+  American-themed name.&quot;
+
+  https://www.mlb.com/news/cleveland-indians-team-name-change
+
+.. topic:: Recommendation
+
+  - When evaluating text classifiers on the 20 Newsgroups data, you
+    should strip newsgroup-related metadata. In scikit-learn, you can do this
+    by setting ``remove=(&#39;headers&#39;, &#39;footers&#39;, &#39;quotes&#39;)``. The F-score will be
+    lower because it is more realistic.
+  - This text dataset contains data which may be inappropriate for certain NLP
+    applications. An example is listed in the &quot;Data Considerations&quot; section
+    above. The challenge with using current text datasets in NLP for tasks such
+    as sentence completion, clustering, and other applications is that text
+    that is culturally biased and inflammatory will propagate biases. This
+    should be taken into consideration when using the dataset, reviewing the
+    output, and the bias should be documented.
+
+.. topic:: Examples
+
+   * :ref:`sphx_glr_auto_examples_model_selection_plot_grid_search_text_feature_extraction.py`
+
+   * :ref:`sphx_glr_auto_examples_text_plot_document_classification_20newsgroups.py`
+
+   * :ref:`sphx_glr_auto_examples_text_plot_hashing_vs_dict_vectorizer.py`
+
+   * :ref:`sphx_glr_auto_examples_text_plot_document_clustering.py`
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="gpbjAEQ2XfcV"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-c1f44b15459bea17&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="313f8e66-1a23-4559-84d9-e7d752751a5e">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the messages and topic labels, and view the topic labels</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> data[<span class="st">&quot;data&quot;</span>]</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> data[<span class="st">&quot;target&quot;</span>]</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The following are the 20 topics that a message (&quot;document&quot;) can belong to:&#39;</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>pprint(data[<span class="st">&quot;target_names&quot;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The following are the 20 topics that a message (&quot;document&quot;) can belong to:
+[&#39;alt.atheism&#39;,
+ &#39;comp.graphics&#39;,
+ &#39;comp.os.ms-windows.misc&#39;,
+ &#39;comp.sys.ibm.pc.hardware&#39;,
+ &#39;comp.sys.mac.hardware&#39;,
+ &#39;comp.windows.x&#39;,
+ &#39;misc.forsale&#39;,
+ &#39;rec.autos&#39;,
+ &#39;rec.motorcycles&#39;,
+ &#39;rec.sport.baseball&#39;,
+ &#39;rec.sport.hockey&#39;,
+ &#39;sci.crypt&#39;,
+ &#39;sci.electronics&#39;,
+ &#39;sci.med&#39;,
+ &#39;sci.space&#39;,
+ &#39;soc.religion.christian&#39;,
+ &#39;talk.politics.guns&#39;,
+ &#39;talk.politics.mideast&#39;,
+ &#39;talk.politics.misc&#39;,
+ &#39;talk.religion.misc&#39;]
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="o5cBJ21VXfcW" data-outputId="ab61a4a0-19c8-4c00-be16-be5bc28dbac8">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s look at an example data sample</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>i_sample <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;A sample with label number &quot;</span><span class="sc">{</span>target[i_sample]<span class="sc">}</span><span class="ss">&quot;, </span><span class="sc">{</span>data[<span class="st">&quot;target_names&quot;</span>][target[i_sample]]<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(text[i_sample])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>A sample with label number &quot;10&quot;, rec.sport.hockey
+
+From: Mamatha Devineni Ratnam &lt;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3e534c0a09157e5f505a4c5b49105d534b105b5a4b">[email&#160;protected]</a>&gt;
+Subject: Pens fans reactions
+Organization: Post Office, Carnegie Mellon, Pittsburgh, PA
+Lines: 12
+NNTP-Posting-Host: po4.andrew.cmu.edu
+
+
+
+I am sure some bashers of Pens fans are pretty confused about the lack
+of any kind of posts about the recent Pens massacre of the Devils. Actually,
+I am  bit puzzled too and a bit relieved. However, I am going to put an end
+to non-PIttsburghers&#39; relief with a bit of praise for the Pens. Man, they
+are killing those Devils worse than I thought. Jagr just showed you why
+he is much better than his regular season stats. He is also a lot
+fo fun to watch in the playoffs. Bowman should let JAgr have a lot of
+fun in the next couple of games since the Pens are going to beat the pulp out of Jersey anyway. I was very disappointed not to see the Islanders lose the final
+regular season game.          PENS RULE!!!
+
+
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Iw0pU2ZvXfcW"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-2377d43a03f72b0f&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="12b74729-db42-4290-eddb-071ada99cf86">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This &quot;20 newsgroups&quot; dataset has a pre-set train/test split, but in this</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># assignment we&#39;ve loaded all the data, and will use a random shuffling and</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># split of the data, as we typically do.</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(text, target, random_state<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;The training dataset contains </span><span class="sc">{</span><span class="bu">len</span>(X_train)<span class="sc">}</span><span class="ss"> messages.&quot;</span>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;The test dataset contains </span><span class="sc">{</span><span class="bu">len</span>(X_test)<span class="sc">}</span><span class="ss"> messages.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The training dataset contains 14134 messages.
+The test dataset contains 4712 messages.
+</code></pre>
+</div>
+</div>
+<section id="create-feature-representations" class="cell markdown"
+id="y-8UabjkXfcX">
+<h3>Create feature representations</h3>
+<p>Below you will create numerical representations (a vectors) for each
+message using three methods we discussed in class.</p>
+<ol>
+<li>Bag of Words (BoW)</li>
+<li>Term frequency - Inverse Document Frequency (TF-IDF)</li>
+<li>Hashing</li>
+</ol>
+<p>Note that TF-IDF representations build upon the BoW representations
+by scaling the term counts in the Bag of Words document term matrix.</p>
+<p>Scikit-learn implements the BoW feature representation using <a
+href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html">CountVectorizer</a>,
+and it also has implementations for <a
+href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer">TF-IDF</a>
+and <a
+href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html#sklearn.feature_extraction.text.HashingVectorizer">hashed
+vector</a> representations. Determine the feature representations of our
+dataset using each of those approaches.</p>
+</section>
+<section id="bag-of-words" class="cell markdown" id="-m0F2ibQXfcX">
+<h4>Bag of Words</h4>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-deletable="false" id="ItqffDbJXfcY"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;2a548affddacf8b2bdadbec20f1d420c&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-f899f3942f01be93&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}"
+data-outputId="cb427b1f-35b9-444f-b875-831f19b8b217">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>time</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Use &quot;english&quot; stopwords and produce a BoW representation for the data using n-grams with</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># n up to 3 (that is, use unigrams, bigrams, and trigrams).</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the vectorizer (transformer) as &quot;counter&quot;.</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the transformed data as &quot;X_train_bow&quot;, and &quot;X_test_bow&quot;.</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co"># &quot;Fit&quot; the BoW transformer using the training data only. During the fitting process</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="co"># the transformer identifies/learns its unique set of takens/features. When never before</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="co"># seen tokens are found in the test set (or any other non-training data), they are</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co"># ignored. That is, they are not counted and included in the BoW representation matrix.</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that the CountVectorizer object is performing some of the text preprocessing</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="co"># discussed in class, including tokenization and removing stop words (but not lemmatization).</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="co"># The number of unique token occurences in each document (message) is done after</span></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="co"># this preprocessing.</span></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE</span></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize CountVectorizer object with desired parameters</span></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>stopwords <span class="op">=</span> <span class="st">&quot;english&quot;</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>ngram_range <span class="op">=</span> (<span class="dv">1</span>, <span class="dv">3</span>)</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>counter <span class="op">=</span> CountVectorizer(stop_words<span class="op">=</span>stopwords, ngram_range<span class="op">=</span>ngram_range)</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit vectorizer to training data and transform the training  data</span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>X_train_bow <span class="op">=</span> counter.fit_transform(X_train)</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Transform the test data using the fitted transformer</span></span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>X_test_bow <span class="op">=</span> counter.transform(X_test)</span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a><span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>CPU times: user 32 s, sys: 531 ms, total: 32.5 s
+Wall time: 34.6 s
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ysWuXa8rXfcY" data-outputId="23c469c2-4323-434d-9500-f9e6caf19a38">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s see how many features (tokens) are in the BoW representations.</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># It will be a very large number (&gt; 3M) owing to the use of n-grams with n up</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># to 3. It is also large to do the many typos, misspellings, or other</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># character sequences that are not actual english words, and thus treated</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co"># as a new/unique token.</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co"># You may want to alter the cell above to use only unigrams, or</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="co"># only unigrams and bigrams, and see how many features are created in</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="co"># those situations. But use n-grams with n up to three before moving</span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="co"># forward in the notebook.</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;The training set has: </span><span class="sc">{</span>X_train_bow<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">:5d}</span><span class="ss"> samples and </span><span class="sc">{</span>X_train_bow<span class="sc">.</span>shape[<span class="dv">1</span>]<span class="sc">}</span><span class="ss"> features.&#39;</span>)</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;The test set has:     </span><span class="sc">{</span>X_test_bow<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">:5d}</span><span class="ss"> samples and </span><span class="sc">{</span>X_test_bow<span class="sc">.</span>shape[<span class="dv">1</span>]<span class="sc">}</span><span class="ss"> features.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The training set has:  9423 samples and 2208105 features.
+The test set has:      9423 samples and 2208105 features.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="r2HS_WOPXfcZ"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;6c4e2d2a908a09be0726df3099868d81&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-740433b073b13510&quot;,&quot;locked&quot;:true,&quot;points&quot;:5,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> counter</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> counter.stop_words<span class="op">==</span><span class="st">&quot;english&quot;</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> counter.ngram_range<span class="op">==</span>(<span class="dv">1</span>, <span class="dv">3</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(counter.get_feature_names_out())<span class="op">==</span><span class="dv">3034327</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> X_train_bow.shape<span class="op">==</span>(<span class="dv">14134</span>, <span class="dv">3034327</span>)</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> X_test_bow.shape<span class="op">==</span>(<span class="dv">4712</span>, <span class="dv">3034327</span>)</span></code></pre></div>
+</div>
+<section id="term-frequency---inverse-document-frequency"
+class="cell markdown" id="ciGhcCeyXfcZ">
+<h4>Term frequency - Inverse document frequency</h4>
+<p>Note that sklearn implements a <a
+href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html"><code>TfidfVectorizer</code></a>
+and <a
+href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html"><code>TfidfTransformer</code></a>.
+The main difference between the two is in the inputs to
+<code>fit_transform</code> and <code>transform</code>. The <a
+href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer.fit">Vectorizer's
+fit/transform</a> take an input of text whereas the <a
+href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html#sklearn.feature_extraction.text.TfidfTransformer.fit">Transformer's</a>
+take an input of a BoW matrix. Given that we already determined the BoW
+matrix, it would be more time efficient to use
+<code>TfidfTransformer</code>.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-deletable="false" id="3MttQc8yXfca"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;a3414772ac5b3108202d8dcfca809f42&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-018bdbbae2613aef&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}"
+data-outputId="86d08a5f-2274-42df-8a2a-a89f874049d8">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>time</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Use the BoW representation you just created above to produce a TF-IDF representation of the data</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the transformer to &quot;tfidfer&quot;.</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the transformed data as &quot;X_train_tfidf&quot;, and &quot;X_test_tfidf&quot;.</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="co"># As with BoW, using only training data representations for fitting, during</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="co"># which time the TF-IDF transformer determines the fixed set of tokens that</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="co"># it will represent.</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.feature_extraction.text <span class="im">import</span> TfidfTransformer</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>tfidfer <span class="op">=</span> TfidfTransformer()</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>X_train_tfidf <span class="op">=</span> tfidfer.fit_transform(X_train_bow)</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>X_test_tfidf <span class="op">=</span> tfidfer.transform(X_test_bow)</span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a><span class="co">#raise NotImplementedError()</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>CPU times: user 3.74 s, sys: 341 ms, total: 4.08 s
+Wall time: 7.1 s
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="SAGr70YLXfca"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;002c4691b85e923f64b114fd54088c1f&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-0e6ce5999cd93389&quot;,&quot;locked&quot;:true,&quot;points&quot;:5,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> tfidfer</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> X_train_tfidf.shape<span class="op">==</span>(<span class="dv">14134</span>, <span class="dv">3034327</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> X_test_tfidf.shape<span class="op">==</span>(<span class="dv">4712</span>, <span class="dv">3034327</span>)</span></code></pre></div>
+</div>
+<section id="hashing-vectorizer" class="cell markdown"
+data-deletable="false" data-editable="false" id="Uahwlq4eXfcb"
+data-nbgrader="{&quot;cell_type&quot;:&quot;markdown&quot;,&quot;checksum&quot;:&quot;5ad711b8f3b748c9fd4a1ff2a0ae7053&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-ed956dd2a828dea8&quot;,&quot;locked&quot;:true,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<h4>Hashing vectorizer</h4>
+<p>So far, we've "vectorized" the raw text messages into numerical
+feature vectors (assembled into a matrix) using BoW and TF-IDF. Both of
+those techniques determine a vocabulary, a fixed number of tokens, from
+the training data. When new tokens are found in the test set data they
+are ignored.</p>
+<p>The hashing vectorizer remedies (but not without a downside) this
+situation by using a hash algorithm to convert a text token into an
+index (location) into the representation vector. A hash algorithm
+converts any sequence of bits into a bit sequence of fixed length. That
+fixed length sequence is thus an integer. There are many facets to this,
+but as this is not a cryptogryphy course (hashing is often used as a
+method to confirm that a digital document/stream has not been altered),
+we won't discuss those facets here.</p>
+<p>The main point is, a hashing vectorizer can deal with test set tokens
+that is has never seen before, and "find" a place for them in the output
+feature representation.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-deletable="false" id="KIRTlrzCXfcb"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;b420684464adae5a7a1fa7ce6acadad3&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-2ad00d9b9df56ed5&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}"
+data-outputId="ddd3251e-c6fb-42d9-ba95-2e7cbdaa83a5">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>time</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Use &quot;english&quot; stopwords and produce a hashed vector representation for the data using up to trigrams.</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the vectorizer as &quot;hasher&quot;.</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the transformed data as &quot;X_train_hash&quot; and &quot;X_test_hash&quot;.</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Make sure you set alternate_sign to False so we can use this representation with Multinomial Naive</span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Bayes later in the notebook.</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.feature_extraction.text <span class="im">import</span> HashingVectorizer</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Use &quot;english&quot; stopwords + produce hashed vector representation for the data using up to trigrams.</span></span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>hasher <span class="op">=</span> HashingVectorizer(stop_words<span class="op">=</span><span class="st">&#39;english&#39;</span>, ngram_range<span class="op">=</span>(<span class="dv">1</span>, <span class="dv">3</span>), alternate_sign<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Save transformed data .</span></span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>X_train_hash <span class="op">=</span> hasher.transform(X_train)</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>X_test_hash <span class="op">=</span> hasher.transform(X_test)</span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a><span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>CPU times: user 10.7 s, sys: 121 ms, total: 10.8 s
+Wall time: 12.5 s
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="qZ-_-11EXfcc" data-outputId="cb737de7-8c1e-4576-f74f-d5302aee2aab">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s see how many features (tokens) are in the hashed representations</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;The training set has: </span><span class="sc">{</span>X_train_hash<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">:5d}</span><span class="ss"> samples and </span><span class="sc">{</span>X_train_hash<span class="sc">.</span>shape[<span class="dv">1</span>]<span class="sc">}</span><span class="ss"> features.&#39;</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;The test set has:     </span><span class="sc">{</span>X_test_hash<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">:5d}</span><span class="ss"> samples and </span><span class="sc">{</span>X_test_hash<span class="sc">.</span>shape[<span class="dv">1</span>]<span class="sc">}</span><span class="ss"> features.&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The training set has: 14134 samples and 1048576 features.
+The test set has:      4712 samples and 1048576 features.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="QGwOlwPsXfcc"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;5fee5c79f5236e12894fdf52279d3f9a&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-f6a5afb5d4f0a4d9&quot;,&quot;locked&quot;:true,&quot;points&quot;:5,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> hasher</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> hasher.stop_words <span class="op">==</span> <span class="st">&quot;english&quot;</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> hasher.ngram_range <span class="op">==</span> (<span class="dv">1</span>,<span class="dv">3</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> X_train_hash.shape <span class="op">==</span> (<span class="dv">14134</span>, <span class="dv">1048576</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> X_test_hash.shape <span class="op">==</span> (<span class="dv">4712</span>, <span class="dv">1048576</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="-2vFxQK0Xfcc">
+<p>Having passed the asserts above, we see that the hashing vectorizer
+produced feature vectors with 1048576 features. Recall that the hash
+algorithm creates outputs with a fixed number of bits, and
+<code>2**n_bits</code> must be the number of possible features in the
+representation.</p>
+<p>Just out of curiosity, let's see how many output bits were produced
+by the hash algorithm.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="tfc5t5kIXfcd" data-outputId="52055425-b061-4e1c-a5e9-1eb4a0011dbf">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Just out of curiosity, let&#39;s see how many output bits were produced by the hash algorithm.</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>n_features <span class="op">=</span> X_test_hash.shape[<span class="dv">1</span>]</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>n_bits <span class="op">=</span> np.log2(n_features)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;The hash algorithm generated </span><span class="sc">{</span>n_bits<span class="sc">}</span><span class="ss">-bit representations, and thus 2^</span><span class="sc">{</span>n_bits<span class="sc">}</span><span class="ss">==</span><span class="sc">{</span>n_features<span class="sc">}</span><span class="ss"> features.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The hash algorithm generated 20.0-bit representations, and thus 2^20.0==1048576 features.
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="ez8ALwqUXfcd">
+<p>Compare the time it took to run the count vectorizer versus the
+hashing vectorizer even though they both will iterate through all the
+words.</p>
+<p>Note that TF-IDF built upon the BoW representations, to that BoW time
+should be added in to the TF-IDF time.</p>
+</div>
+<section id="a-naive-bayes-classifier-model-with-engineered-features"
+class="cell markdown" id="ZKRgVvPOXfcd">
+<h2>A Naive Bayes classifier model, with engineered features</h2>
+<p>New you'll build classifier models that use the vector feature
+representations you just created.</p>
+<p>Recall <a
+href="http://scikit-learn.org/stable/modules/naive_bayes.html">Naive
+Bayes Classification</a> which we discussed early on in the supervised
+learning lectures. We will use Naive Bayes classifiers to predict the
+topic of the articles and compare our feature representations.</p>
+<p>Use a Multinomial Naive Bayes classifier to predict the topics.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-deletable="false" id="uyhP6WgEXfce"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;cf8ba8d7e6d600d38c11be1dd5c1109f&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-cdf5ba26c387fd97&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}"
+data-outputId="12e6ff94-d233-4c1e-cb87-c5e1f91e3c67">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.naive_bayes <span class="im">import</span> MultinomialNB</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> feat_name, train_feat, test_feat <span class="kw">in</span> <span class="bu">zip</span>([<span class="st">&quot;Bag of Words&quot;</span>, <span class="st">&quot;TF-IDF&quot;</span>, <span class="st">&quot;Hashing&quot;</span>],</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>                                            [X_train_bow, X_train_tfidf, X_train_hash],</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>                                            [X_test_bow, X_test_tfidf, X_test_hash]):</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create a Multinomial Naive Bayes model and saved it to `mnb`</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Fit the &#39;mnb&#39; model to the training features and labels, for</span></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># the BoW, TF-IDF, or hashing features in this loop.</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># YOUR CODE HERE</span></span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create a Multinomial Naive Bayes model and saved it to `mnb`</span></span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>    mnb <span class="op">=</span> MultinomialNB()</span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Fit the &#39;mnb&#39; model to the training features and labels, for</span></span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># the BoW, TF-IDF, or hashing features in this loop.</span></span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>    mnb.fit(train_feat, y_train)</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># raise NotImplementedError()</span></span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a>    y_pred <span class="op">=</span> mnb.predict(test_feat)</span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Results for </span><span class="sc">{</span>feat_name<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;-&quot;</span><span class="op">*</span><span class="dv">80</span>)</span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(classification_report(y_test, y_pred))</span>
+<span id="cb28-28"><a href="#cb28-28" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;-&quot;</span><span class="op">*</span><span class="dv">80</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Results for Bag of Words
+--------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92       205
+           1       0.78      0.87      0.82       245
+           2       0.92      0.76      0.83       250
+           3       0.77      0.83      0.80       243
+           4       0.89      0.85      0.87       255
+           5       0.84      0.91      0.88       240
+           6       0.90      0.75      0.82       249
+           7       0.89      0.90      0.89       219
+           8       0.96      0.91      0.94       246
+           9       0.92      0.97      0.94       227
+          10       0.96      0.98      0.97       287
+          11       0.88      0.97      0.92       234
+          12       0.93      0.82      0.87       247
+          13       0.93      0.92      0.93       250
+          14       0.90      0.96      0.93       240
+          15       0.93      0.95      0.94       250
+          16       0.90      0.98      0.93       211
+          17       0.94      1.00      0.96       246
+          18       0.93      0.92      0.93       209
+          19       0.93      0.72      0.81       159
+
+    accuracy                           0.90      4712
+   macro avg       0.90      0.90      0.90      4712
+weighted avg       0.90      0.90      0.90      4712
+
+--------------------------------------------------------------------------------
+Results for TF-IDF
+--------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90       205
+           1       0.83      0.82      0.83       245
+           2       0.85      0.84      0.85       250
+           3       0.77      0.84      0.80       243
+           4       0.90      0.83      0.87       255
+           5       0.88      0.88      0.88       240
+           6       0.86      0.77      0.81       249
+           7       0.82      0.89      0.85       219
+           8       0.93      0.92      0.93       246
+           9       0.86      0.97      0.91       227
+          10       0.92      0.98      0.95       287
+          11       0.88      0.97      0.92       234
+          12       0.92      0.80      0.85       247
+          13       0.96      0.88      0.92       250
+          14       0.87      0.96      0.91       240
+          15       0.78      0.94      0.85       250
+          16       0.83      0.98      0.90       211
+          17       0.95      0.99      0.97       246
+          18       0.99      0.77      0.87       209
+          19       0.92      0.42      0.57       159
+
+    accuracy                           0.88      4712
+   macro avg       0.88      0.87      0.87      4712
+weighted avg       0.88      0.88      0.87      4712
+
+--------------------------------------------------------------------------------
+Results for Hashing
+--------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           0       0.87      0.87      0.87       205
+           1       0.78      0.80      0.79       245
+           2       0.84      0.80      0.82       250
+           3       0.71      0.82      0.76       243
+           4       0.91      0.80      0.85       255
+           5       0.88      0.86      0.87       240
+           6       0.85      0.78      0.81       249
+           7       0.82      0.89      0.85       219
+           8       0.89      0.91      0.90       246
+           9       0.82      0.96      0.88       227
+          10       0.93      0.95      0.94       287
+          11       0.83      0.97      0.90       234
+          12       0.90      0.77      0.83       247
+          13       0.95      0.86      0.91       250
+          14       0.86      0.97      0.91       240
+          15       0.75      0.94      0.83       250
+          16       0.79      0.97      0.87       211
+          17       0.93      0.98      0.95       246
+          18       0.99      0.69      0.81       209
+          19       0.98      0.27      0.42       159
+
+    accuracy                           0.85      4712
+   macro avg       0.86      0.84      0.84      4712
+weighted avg       0.86      0.85      0.85      4712
+
+--------------------------------------------------------------------------------
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="b6Q1FRUmXfce"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;c6868948856264f42927eef81e550203&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-b545c8d3793a05e7&quot;,&quot;locked&quot;:true,&quot;points&quot;:1,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(mnb, MultinomialNB)</span></code></pre></div>
+</div>
+<section id="latent-dirichlet-allocation-optional" class="cell markdown"
+id="2qhwppWuXfce">
+<h2>Latent Dirichlet Allocation (optional)</h2>
+<p>LDA is a topic modeling approach that can be used to determine high
+level topics covered in a corpus. Identified topics can help us
+determine the concepts covered in the corpus and better understand what
+is being discussed. The topic relevance can be used as a useful feature
+representation for each document.</p>
+<p>Scikit-learn has an implementation available for <a
+href="https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html">LDA</a>.</p>
+<p>Fitting this data can take a <strong>very long time</strong> so this
+code is just provided for you to uncomment it and examine the results.
+You can continue with the rest of the notebook while this runs.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="He1wuj1UXfce" data-outputId="dc50821e-d931-43b6-b1a1-f263e8b075d5">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>time</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Feel free to change the number of topics to find by updating n_components</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="co"># lda = LatentDirichletAllocation(n_components=30)</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="co"># lda.fit(X_train_bow)</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 6.2 µs
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="3q9rCpghXfcf">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_top_words(model, feature_names, n_top_words, title):</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>    rows <span class="op">=</span> model.n_components <span class="op">//</span> <span class="dv">5</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> rows <span class="op">%</span> <span class="dv">5</span> <span class="op">!=</span> <span class="dv">0</span>:</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>        rows <span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    fig, axes <span class="op">=</span> plt.subplots(rows, <span class="dv">5</span>, figsize<span class="op">=</span>(<span class="dv">45</span>, <span class="dv">15</span>), sharex<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    axes <span class="op">=</span> axes.flatten()</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> topic_idx, topic <span class="kw">in</span> <span class="bu">enumerate</span>(model.components_):</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>        top_features_ind <span class="op">=</span> topic.argsort()[:<span class="op">-</span>n_top_words <span class="op">-</span> <span class="dv">1</span>:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>        top_features <span class="op">=</span> [feature_names[i] <span class="cf">for</span> i <span class="kw">in</span> top_features_ind]</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>        weights <span class="op">=</span> topic[top_features_ind]</span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>        ax <span class="op">=</span> axes[topic_idx]</span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>        ax.barh(top_features, weights, height<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>        ax.set_title(<span class="ss">f&#39;Topic </span><span class="sc">{</span>topic_idx <span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">&#39;</span>,</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>                     fontdict<span class="op">=</span>{<span class="st">&#39;fontsize&#39;</span>: <span class="dv">30</span>})</span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>        ax.invert_yaxis()</span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>        ax.tick_params(axis<span class="op">=</span><span class="st">&#39;both&#39;</span>, which<span class="op">=</span><span class="st">&#39;major&#39;</span>, labelsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="st">&#39;top right left&#39;</span>.split():</span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a>            ax.spines[i].set_visible(<span class="va">False</span>)</span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a>        fig.suptitle(title, fontsize<span class="op">=</span><span class="dv">40</span>)</span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a>    plt.subplots_adjust(top<span class="op">=</span><span class="fl">0.90</span>, bottom<span class="op">=</span><span class="fl">0.05</span>, wspace<span class="op">=</span><span class="fl">0.90</span>, hspace<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+</div>
+<div class="cell code" id="hWTBcDKCXfcf">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plot_top_words(lda, counter.get_feature_names(), 10, &quot;Topic Content&quot;)</span></span></code></pre></div>
+</div>
+<div class="cell code" id="SZ8_AeNrXfcg">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;The following names are the target classes:&quot;</span>)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.target_names)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;What do you think of the similarity between topics you found and the classes? Are these useful topics?&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" id="uUTGDOjcXfch">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>time</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="co"># X_train_lda = lda.transform(X_train_bow)</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co"># X_test_lda = lda.transform(X_test_bow)</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="co"># svm = LinearSVC().fit(X_train_lda, y_train)</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a><span class="co"># y_pred = svm.predict(X_test_lda)</span></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a><span class="co"># print(classification_report(y_test, y_pred))</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="4tW7tQElXfch">
+<p><strong>PLEASE</strong></p>
+<p><strong>If you uncommented and ran the above Latent Dirichlet
+Allocation (LDA) code, recomment it afterwards, as this will help speed
+up grading time.</strong></p>
+<p><strong>Thank you!!</strong></p>
+</div>
+<section id="learned-embeddings" class="cell markdown"
+data-deletable="false" data-editable="false" id="7jC723dOXfci"
+data-nbgrader="{&quot;cell_type&quot;:&quot;markdown&quot;,&quot;checksum&quot;:&quot;c96453fa3ea624ebe11c4066e3785057&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-f1fb206ff47bb7a6&quot;,&quot;locked&quot;:true,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<h2>Learned Embeddings</h2>
+<p>We'll now move on to the use of <strong>learned</strong>
+representations, rather than ones the were, to some degree, engineered
+(e.g., the decision to base the features on token counts). We will use
+<a href="https://spacy.io/">spacy</a>, for more sophisticated NLP. Make
+sure you downloaded the english model in the commented code at the top
+of the notebook (<code>en_core_web_md</code>) before proceeding. It may
+take some time to download.</p>
+<p>Spacy allows us to parse text and automatically does the
+following:</p>
+<ul>
+<li>tokenization</li>
+<li>lemmatization</li>
+<li>sentence splitting</li>
+<li>entity recognition</li>
+<li>token vector representation</li>
+</ul>
+<p><strong>We'll start by creating an example string, and observing the
+results of <code>spacy</code>'s preprocessing. Then you can create your
+own example string and do the same.</strong></p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="MaqqaWKiXfci"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-bdd9ef5d3e965340&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="aaf986de-278d-4a2c-bb5d-49d5ae477ed9">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>time</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="co"># The spacy models are of small (sm), medium (md) and large (lg)</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co"># sizes. We&#39;ll use the medium-sized model.</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> en_core_web_md.load()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>CPU times: user 1.83 s, sys: 108 ms, total: 1.94 s
+Wall time: 2.05 s
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Nhy3Af0xXfci"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-d4194dd187aa95b1&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="789ec9e6-f572-4360-c56a-f59e5c604e13">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> <span class="st">&quot;This is the first sentence in this test string. The quick brown fox jumps over the lazy dog.&quot;</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>parsed_text <span class="op">=</span> nlp(text)</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> sent <span class="kw">in</span> parsed_text.sents:</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Analyzing sentence: </span><span class="sc">{</span>sent<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Lemmatization: </span><span class="sc">{</span>sent<span class="sc">.</span>lemma_<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> token <span class="kw">in</span> sent:</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Analyzing token: </span><span class="sc">{</span>token<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> token.is_sent_start:</span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;This token is the first one in the sentence&quot;</span>)</span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> token.is_stop:</span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;Stop word&quot;</span>)</span>
+<span id="cb39-14"><a href="#cb39-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb39-15"><a href="#cb39-15" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;Not stop word&quot;</span>)</span>
+<span id="cb39-16"><a href="#cb39-16" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Entity type: </span><span class="sc">{</span>token<span class="sc">.</span>ent_type_<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb39-17"><a href="#cb39-17" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Part of speech: </span><span class="sc">{</span>token<span class="sc">.</span>pos_<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb39-18"><a href="#cb39-18" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Lemma: </span><span class="sc">{</span>token<span class="sc">.</span>lemma_<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb39-19"><a href="#cb39-19" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;-&quot;</span><span class="op">*</span><span class="dv">10</span>)</span>
+<span id="cb39-20"><a href="#cb39-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;-&quot;</span><span class="op">*</span><span class="dv">50</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Analyzing sentence: This is the first sentence in this test string.
+Lemmatization: this be the first sentence in this test string.
+Analyzing token: This
+This token is the first one in the sentence
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: this
+----------
+Analyzing token: is
+Stop word
+Entity type: 
+Part of speech: AUX
+Lemma: be
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: first
+Stop word
+Entity type: ORDINAL
+Part of speech: ADJ
+Lemma: first
+----------
+Analyzing token: sentence
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: sentence
+----------
+Analyzing token: in
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: in
+----------
+Analyzing token: this
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: this
+----------
+Analyzing token: test
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: test
+----------
+Analyzing token: string
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: string
+----------
+Analyzing token: .
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: .
+----------
+--------------------------------------------------
+Analyzing sentence: The quick brown fox jumps over the lazy dog.
+Lemmatization: the quick brown fox jump over the lazy dog.
+Analyzing token: The
+This token is the first one in the sentence
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: quick
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: quick
+----------
+Analyzing token: brown
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: brown
+----------
+Analyzing token: fox
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: fox
+----------
+Analyzing token: jumps
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: jump
+----------
+Analyzing token: over
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: over
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: lazy
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: lazy
+----------
+Analyzing token: dog
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: dog
+----------
+Analyzing token: .
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: .
+----------
+--------------------------------------------------
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-deletable="false" id="m4kCQEWtXfcj"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;14751fcb1029c6fe4c1ea2b5336a5410&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-a1f85ff1f2b6b116&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Come up with a couple sentences to test out, put them into a single string (pair</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="co"># of quuotes), and name that string &quot;my_text&quot;.</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Or, go to a website and copy a paragraph from there.</span></span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE</span></span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>my_text <span class="op">=</span> <span class="st">&quot;As I hiked through the forest, I noticed the beautiful mushrooms growing along the trail. Their intricate patterns and colors reminded me of the artwork of my favorite painter. Later that day, I met up with some friends to go ice climbing, feeling small and insignificant in the vastness of the frozen landscape. As we climbed higher and higher, I couldn&#39;t help but contemplate the mysteries of the universe and our place within it.&quot;</span></span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a><span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="6vKHGZxZXfcj"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;80badb1bad0222f6ce477e3787c284bc&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-dd4c284f3101e2e6&quot;,&quot;locked&quot;:true,&quot;points&quot;:1,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(my_text) <span class="op">&gt;</span> <span class="dv">10</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> my_text.count(<span class="st">&quot;.&quot;</span>) <span class="op">&gt;</span> <span class="dv">2</span>  <span class="co"># Two or more sentences</span></span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="UaVcbSJ9Xfck"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-fd7fed9c7e3903f4&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="2c4e08b6-c2f7-4a1a-e5de-38c6be3f1779">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>parsed <span class="op">=</span> nlp(my_text)</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> sent <span class="kw">in</span> parsed.sents:</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Analyzing sentence: </span><span class="sc">{</span>sent<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Lemmatization: </span><span class="sc">{</span>sent<span class="sc">.</span>lemma_<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> token <span class="kw">in</span> sent:</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Analyzing token: </span><span class="sc">{</span>token<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> token.is_sent_start:</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;This token is the first one in the sentence&quot;</span>)</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> token.is_stop:</span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;Stop word&quot;</span>)</span>
+<span id="cb43-11"><a href="#cb43-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb43-12"><a href="#cb43-12" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">&quot;Not stop word&quot;</span>)</span>
+<span id="cb43-13"><a href="#cb43-13" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Entity type: </span><span class="sc">{</span>token<span class="sc">.</span>ent_type_<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb43-14"><a href="#cb43-14" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Part of speech: </span><span class="sc">{</span>token<span class="sc">.</span>pos_<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb43-15"><a href="#cb43-15" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Lemma: </span><span class="sc">{</span>token<span class="sc">.</span>lemma_<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb43-16"><a href="#cb43-16" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;-&quot;</span><span class="op">*</span><span class="dv">10</span>)</span>
+<span id="cb43-17"><a href="#cb43-17" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;-&quot;</span><span class="op">*</span><span class="dv">50</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Analyzing sentence: As I hiked through the forest, I noticed the beautiful mushrooms growing along the trail.
+Lemmatization: as I hike through the forest, I notice the beautiful mushroom grow along the trail.
+Analyzing token: As
+This token is the first one in the sentence
+Stop word
+Entity type: 
+Part of speech: SCONJ
+Lemma: as
+----------
+Analyzing token: I
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: I
+----------
+Analyzing token: hiked
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: hike
+----------
+Analyzing token: through
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: through
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: forest
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: forest
+----------
+Analyzing token: ,
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: ,
+----------
+Analyzing token: I
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: I
+----------
+Analyzing token: noticed
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: notice
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: beautiful
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: beautiful
+----------
+Analyzing token: mushrooms
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: mushroom
+----------
+Analyzing token: growing
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: grow
+----------
+Analyzing token: along
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: along
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: trail
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: trail
+----------
+Analyzing token: .
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: .
+----------
+--------------------------------------------------
+Analyzing sentence: Their intricate patterns and colors reminded me of the artwork of my favorite painter.
+Lemmatization: their intricate pattern and color remind I of the artwork of my favorite painter.
+Analyzing token: Their
+This token is the first one in the sentence
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: their
+----------
+Analyzing token: intricate
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: intricate
+----------
+Analyzing token: patterns
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: pattern
+----------
+Analyzing token: and
+Stop word
+Entity type: 
+Part of speech: CCONJ
+Lemma: and
+----------
+Analyzing token: colors
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: color
+----------
+Analyzing token: reminded
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: remind
+----------
+Analyzing token: me
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: I
+----------
+Analyzing token: of
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: of
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: artwork
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: artwork
+----------
+Analyzing token: of
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: of
+----------
+Analyzing token: my
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: my
+----------
+Analyzing token: favorite
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: favorite
+----------
+Analyzing token: painter
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: painter
+----------
+Analyzing token: .
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: .
+----------
+--------------------------------------------------
+Analyzing sentence: Later that day, I met up with some friends to go ice climbing, feeling small and insignificant in the vastness of the frozen landscape.
+Lemmatization: later that day, I meet up with some friend to go ice climbing, feel small and insignificant in the vastness of the frozen landscape.
+Analyzing token: Later
+This token is the first one in the sentence
+Not stop word
+Entity type: DATE
+Part of speech: ADV
+Lemma: later
+----------
+Analyzing token: that
+Stop word
+Entity type: DATE
+Part of speech: DET
+Lemma: that
+----------
+Analyzing token: day
+Not stop word
+Entity type: DATE
+Part of speech: NOUN
+Lemma: day
+----------
+Analyzing token: ,
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: ,
+----------
+Analyzing token: I
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: I
+----------
+Analyzing token: met
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: meet
+----------
+Analyzing token: up
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: up
+----------
+Analyzing token: with
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: with
+----------
+Analyzing token: some
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: some
+----------
+Analyzing token: friends
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: friend
+----------
+Analyzing token: to
+Stop word
+Entity type: 
+Part of speech: PART
+Lemma: to
+----------
+Analyzing token: go
+Stop word
+Entity type: 
+Part of speech: VERB
+Lemma: go
+----------
+Analyzing token: ice
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: ice
+----------
+Analyzing token: climbing
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: climbing
+----------
+Analyzing token: ,
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: ,
+----------
+Analyzing token: feeling
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: feel
+----------
+Analyzing token: small
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: small
+----------
+Analyzing token: and
+Stop word
+Entity type: 
+Part of speech: CCONJ
+Lemma: and
+----------
+Analyzing token: insignificant
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: insignificant
+----------
+Analyzing token: in
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: in
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: vastness
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: vastness
+----------
+Analyzing token: of
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: of
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: frozen
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: frozen
+----------
+Analyzing token: landscape
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: landscape
+----------
+Analyzing token: .
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: .
+----------
+--------------------------------------------------
+Analyzing sentence: As we climbed higher and higher, I couldn&#39;t help but contemplate the mysteries of the universe and our place within it.
+Lemmatization: as we climb high and high, I couldnot help but contemplate the mystery of the universe and our place within it.
+Analyzing token: As
+This token is the first one in the sentence
+Stop word
+Entity type: 
+Part of speech: SCONJ
+Lemma: as
+----------
+Analyzing token: we
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: we
+----------
+Analyzing token: climbed
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: climb
+----------
+Analyzing token: higher
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: high
+----------
+Analyzing token: and
+Stop word
+Entity type: 
+Part of speech: CCONJ
+Lemma: and
+----------
+Analyzing token: higher
+Not stop word
+Entity type: 
+Part of speech: ADJ
+Lemma: high
+----------
+Analyzing token: ,
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: ,
+----------
+Analyzing token: I
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: I
+----------
+Analyzing token: could
+Stop word
+Entity type: 
+Part of speech: AUX
+Lemma: could
+----------
+Analyzing token: n&#39;t
+Stop word
+Entity type: 
+Part of speech: PART
+Lemma: not
+----------
+Analyzing token: help
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: help
+----------
+Analyzing token: but
+Stop word
+Entity type: 
+Part of speech: CCONJ
+Lemma: but
+----------
+Analyzing token: contemplate
+Not stop word
+Entity type: 
+Part of speech: VERB
+Lemma: contemplate
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: mysteries
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: mystery
+----------
+Analyzing token: of
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: of
+----------
+Analyzing token: the
+Stop word
+Entity type: 
+Part of speech: DET
+Lemma: the
+----------
+Analyzing token: universe
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: universe
+----------
+Analyzing token: and
+Stop word
+Entity type: 
+Part of speech: CCONJ
+Lemma: and
+----------
+Analyzing token: our
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: our
+----------
+Analyzing token: place
+Not stop word
+Entity type: 
+Part of speech: NOUN
+Lemma: place
+----------
+Analyzing token: within
+Stop word
+Entity type: 
+Part of speech: ADP
+Lemma: within
+----------
+Analyzing token: it
+Stop word
+Entity type: 
+Part of speech: PRON
+Lemma: it
+----------
+Analyzing token: .
+Not stop word
+Entity type: 
+Part of speech: PUNCT
+Lemma: .
+----------
+--------------------------------------------------
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="RWmgYALRXfck"
+data-nbgrader="{&quot;cell_type&quot;:&quot;markdown&quot;,&quot;checksum&quot;:&quot;86ee98556c7ecd9eb1204436cd5f2ce6&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-1a2a413b9c440b95&quot;,&quot;locked&quot;:true,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<p>If we use the larger <code>spacy</code> models, we'll get the
+<strong>GloVe representation</strong> for some words. GloVe
+representations are "pre-trained" (learned) from a large language
+corpus. In this case, the GloVe vectors should have 300 features.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="eMQuLAqpXfcl"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-da272ac031f8d791&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="45343a1d-cb42-4049-8e4e-8dcf16673f14">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>token.vector.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="62">
+<pre><code>(300,)</code></pre>
+</div>
+</div>
+<section id="an-svm-classifier-model-with-learned-embedding-features"
+class="cell markdown" data-deletable="false" data-editable="false"
+id="2LckrcJlXfcl"
+data-nbgrader="{&quot;cell_type&quot;:&quot;markdown&quot;,&quot;checksum&quot;:&quot;915b7ab80adeb58c07190fd8ecd0d448&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-7d1247a2cf60bab3&quot;,&quot;locked&quot;:true,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<h2>An SVM classifier model, with learned embedding features</h2>
+<p>Now you'll use <code>spacy</code> to get GloVe feature
+representations of a subset of the messages, and then train and test an
+SVM that makes topic predictions based on those features.</p>
+<p>Given that the parsing of text takes some time, we will only use
+<strong>the first 1000 messages</strong> in our data. <strong>You will
+get notably lower performance versus the NB models which used the
+engineered features, but that is almost solely due to the use of a much
+smaller data set here.</strong> You may edit the cell below and use more
+data, but <strong>please</strong> reset it to 1000 afterwards, or the
+autograder may not be able to score your notebook.</p>
+</section>
+<div class="cell code" id="W5wFmp0vXfcl"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-65e1d1dbb5567b87&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>new_X_train, new_X_test, new_y_train, new_y_test <span class="op">=</span> train_test_split(X_train[:<span class="dv">1000</span>], y_train[:<span class="dv">1000</span>], random_state<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-deletable="false" id="ENomVbcmXfcm"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;aafc43301aa0ecfb078b324a43b32553&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-a35e8a4ea5c845f6&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}"
+data-outputId="bb0bb166-b487-482c-b3b2-f7dd921d1484">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>time</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Using the &quot;nlp&quot; from above, parse every instance of new_X_train</span></span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a><span class="co"># save the document vectors to a np.array called X_train_glove</span></span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>X_train_glove <span class="op">=</span> np.array([nlp(text).vector <span class="cf">for</span> text <span class="kw">in</span> new_X_train])</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a>X_test_glove <span class="op">=</span> np.array([nlp(text).vector <span class="cf">for</span> text <span class="kw">in</span> new_X_test])</span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a><span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>CPU times: user 1min 25s, sys: 193 ms, total: 1min 25s
+Wall time: 1min 30s
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="Ss82uk5NXfcm"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;3cbbe22214eea789813b27bee43dc314&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;cell-8431bb15ebe0914f&quot;,&quot;locked&quot;:true,&quot;points&quot;:3,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> X_train_glove.shape <span class="op">==</span> (<span class="bu">len</span>(new_X_train), <span class="dv">300</span>)</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> X_test_glove.shape <span class="op">==</span> (<span class="bu">len</span>(new_X_test), <span class="dv">300</span>)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="q9ESqk3uXfcm"
+data-nbgrader="{&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-5b693b9255ee6aea&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:false}"
+data-outputId="0d0e8fbc-ccec-4246-cb82-ea6d691c3ab6">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>svm <span class="op">=</span> LinearSVC().fit(X_train_glove, new_y_train)</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> svm.predict(X_test_glove)</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Due to the smaller data set size, you may get &quot;Precision and F-score are ill-defined&quot;</span></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a><span class="co"># warnings from the classification_report() below. That is anticipated and of no concern.</span></span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(new_y_test, y_pred))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+           0       0.12      0.14      0.13         7
+           1       0.25      0.20      0.22        10
+           2       0.29      0.36      0.32        11
+           3       0.42      0.42      0.42        12
+           4       0.32      0.50      0.39        12
+           5       0.10      0.09      0.10        11
+           6       0.62      0.50      0.56        10
+           7       0.62      0.83      0.71        18
+           8       0.67      0.47      0.55        17
+           9       0.65      0.65      0.65        17
+          10       0.53      0.57      0.55        14
+          11       0.58      0.50      0.54        14
+          12       0.41      0.37      0.39        19
+          13       0.68      0.81      0.74        16
+          14       0.73      0.80      0.76        10
+          15       0.50      0.38      0.43        13
+          16       0.64      0.64      0.64        14
+          17       0.67      0.67      0.67         9
+          18       0.50      0.18      0.27        11
+          19       0.14      0.20      0.17         5
+
+    accuracy                           0.50       250
+   macro avg       0.47      0.46      0.46       250
+weighted avg       0.50      0.50      0.49       250
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.9/dist-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+</code></pre>
+</div>
+</div>
+<section id="feedback" class="cell markdown" data-deletable="false"
+data-editable="false" id="Y9jy4dCiXfcm"
+data-nbgrader="{&quot;cell_type&quot;:&quot;markdown&quot;,&quot;checksum&quot;:&quot;483e65acc4062f57f7320d9b4cb0f945&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;cell-75181722913aa756&quot;,&quot;locked&quot;:true,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<h2>Feedback</h2>
+</section>
+<div class="cell code" data-deletable="false" id="ju-HeyNaXfcn"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;ed936ab53a1391c5e6af8df699a1dbf5&quot;,&quot;grade&quot;:false,&quot;grade_id&quot;:&quot;feedback&quot;,&quot;locked&quot;:false,&quot;schema_version&quot;:3,&quot;solution&quot;:true}">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> feedback():</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Provide feedback on the contents of this exercise</span></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a><span class="co">        string</span></span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># YOUR CODE HERE</span></span>
+<span id="cb54-8"><a href="#cb54-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># N/A</span></span>
+<span id="cb54-9"><a href="#cb54-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># raise NotImplementedError()</span></span></code></pre></div>
+</div>
+<div class="cell code" data-deletable="false" data-editable="false"
+id="at0MnD4DXfcn"
+data-nbgrader="{&quot;cell_type&quot;:&quot;code&quot;,&quot;checksum&quot;:&quot;f39f6185a54850c2f1f9b5b2a17b7543&quot;,&quot;grade&quot;:true,&quot;grade_id&quot;:&quot;feedback-tests&quot;,&quot;locked&quot;:true,&quot;points&quot;:0,&quot;schema_version&quot;:3,&quot;solution&quot;:false}">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
